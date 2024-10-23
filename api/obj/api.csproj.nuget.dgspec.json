@@ -1,0 +1,422 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mo/Hirash/dotnet/api/api.csproj": {}
+  },
+  "projects": {
+    "/home/mo/Hirash/dotnet/Application.constracture/Application.constracture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mo/Hirash/dotnet/Application.constracture/Application.constracture.csproj",
+        "projectName": "Application.constracture",
+        "projectPath": "/home/mo/Hirash/dotnet/Application.constracture/Application.constracture.csproj",
+        "packagesPath": "/home/mo/.nuget/packages/",
+        "outputPath": "/home/mo/Hirash/dotnet/Application.constracture/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mo/Hirash/dotnet/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mo/Hirash/dotnet/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/mo/Hirash/dotnet/Application/Application.csproj",
+        "packagesPath": "/home/mo/.nuget/packages/",
+        "outputPath": "/home/mo/Hirash/dotnet/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mo/Hirash/dotnet/Application.constracture/Application.constracture.csproj": {
+                "projectPath": "/home/mo/Hirash/dotnet/Application.constracture/Application.constracture.csproj"
+              },
+              "/home/mo/Hirash/dotnet/Domain/Domain.csproj": {
+                "projectPath": "/home/mo/Hirash/dotnet/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mo/Hirash/dotnet/ConfApp/ConfApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mo/Hirash/dotnet/ConfApp/ConfApp.csproj",
+        "projectName": "ConfApp",
+        "projectPath": "/home/mo/Hirash/dotnet/ConfApp/ConfApp.csproj",
+        "packagesPath": "/home/mo/.nuget/packages/",
+        "outputPath": "/home/mo/Hirash/dotnet/ConfApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mo/Hirash/dotnet/Application.constracture/Application.constracture.csproj": {
+                "projectPath": "/home/mo/Hirash/dotnet/Application.constracture/Application.constracture.csproj"
+              },
+              "/home/mo/Hirash/dotnet/Application/Application.csproj": {
+                "projectPath": "/home/mo/Hirash/dotnet/Application/Application.csproj"
+              },
+              "/home/mo/Hirash/dotnet/Domain/Domain.csproj": {
+                "projectPath": "/home/mo/Hirash/dotnet/Domain/Domain.csproj"
+              },
+              "/home/mo/Hirash/dotnet/Infrastructure.EF/Infrastructure.EF.csproj": {
+                "projectPath": "/home/mo/Hirash/dotnet/Infrastructure.EF/Infrastructure.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mo/Hirash/dotnet/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mo/Hirash/dotnet/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/mo/Hirash/dotnet/Domain/Domain.csproj",
+        "packagesPath": "/home/mo/.nuget/packages/",
+        "outputPath": "/home/mo/Hirash/dotnet/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mo/Hirash/dotnet/Infrastructure.EF/Infrastructure.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mo/Hirash/dotnet/Infrastructure.EF/Infrastructure.EF.csproj",
+        "projectName": "Infrastructure.EF",
+        "projectPath": "/home/mo/Hirash/dotnet/Infrastructure.EF/Infrastructure.EF.csproj",
+        "packagesPath": "/home/mo/.nuget/packages/",
+        "outputPath": "/home/mo/Hirash/dotnet/Infrastructure.EF/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mo/Hirash/dotnet/Application.constracture/Application.constracture.csproj": {
+                "projectPath": "/home/mo/Hirash/dotnet/Application.constracture/Application.constracture.csproj"
+              },
+              "/home/mo/Hirash/dotnet/Domain/Domain.csproj": {
+                "projectPath": "/home/mo/Hirash/dotnet/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mo/Hirash/dotnet/api/api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mo/Hirash/dotnet/api/api.csproj",
+        "projectName": "api",
+        "projectPath": "/home/mo/Hirash/dotnet/api/api.csproj",
+        "packagesPath": "/home/mo/.nuget/packages/",
+        "outputPath": "/home/mo/Hirash/dotnet/api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mo/Hirash/dotnet/ConfApp/ConfApp.csproj": {
+                "projectPath": "/home/mo/Hirash/dotnet/ConfApp/ConfApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

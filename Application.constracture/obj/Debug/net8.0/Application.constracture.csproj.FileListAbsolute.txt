@@ -1,0 +1,11 @@
+/home/mo/Hirash/dotnet/Application.constracture/bin/Debug/net8.0/Application.constracture.deps.json
+/home/mo/Hirash/dotnet/Application.constracture/bin/Debug/net8.0/Application.constracture.dll
+/home/mo/Hirash/dotnet/Application.constracture/bin/Debug/net8.0/Application.constracture.pdb
+/home/mo/Hirash/dotnet/Application.constracture/obj/Debug/net8.0/Application.constracture.GeneratedMSBuildEditorConfig.editorconfig
+/home/mo/Hirash/dotnet/Application.constracture/obj/Debug/net8.0/Application.constracture.AssemblyInfoInputs.cache
+/home/mo/Hirash/dotnet/Application.constracture/obj/Debug/net8.0/Application.constracture.AssemblyInfo.cs
+/home/mo/Hirash/dotnet/Application.constracture/obj/Debug/net8.0/Application.constracture.csproj.CoreCompileInputs.cache
+/home/mo/Hirash/dotnet/Application.constracture/obj/Debug/net8.0/Application.constracture.dll
+/home/mo/Hirash/dotnet/Application.constracture/obj/Debug/net8.0/refint/Application.constracture.dll
+/home/mo/Hirash/dotnet/Application.constracture/obj/Debug/net8.0/Application.constracture.pdb
+/home/mo/Hirash/dotnet/Application.constracture/obj/Debug/net8.0/ref/Application.constracture.dll
