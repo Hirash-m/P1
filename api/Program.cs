@@ -7,8 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var connectionString = builder.Configuration.GetConnectionString("Data Source=/home/mo/Hirash/dotnet/database.db;");
-
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 ShopManagementBootstrapper.AddShopManagement(builder.Services, connectionString);
 
 

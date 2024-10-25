@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/mo/Hirash/dotnet/Domain/Domain.csproj": {}
+    "C:\\Users\\Hirash\\Source\\Repos\\Hirash-m\\P1\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "/home/mo/Hirash/dotnet/Domain/Domain.csproj": {
+    "C:\\Users\\Hirash\\Source\\Repos\\Hirash-m\\P1\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mo/Hirash/dotnet/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Hirash\\Source\\Repos\\Hirash-m\\P1\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/mo/Hirash/dotnet/Domain/Domain.csproj",
-        "packagesPath": "/home/mo/.nuget/packages/",
-        "outputPath": "/home/mo/Hirash/dotnet/Domain/obj/",
+        "projectPath": "C:\\Users\\Hirash\\Source\\Repos\\Hirash-m\\P1\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Hirash\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hirash\\source\\repos\\Hirash-m\\P1\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Hirash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
