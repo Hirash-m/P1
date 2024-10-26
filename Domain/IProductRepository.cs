@@ -10,5 +10,6 @@ namespace Domain
     {
         
         List<Product> GetProducts();
+        public void CreateProduct(Product product);
     }
 }

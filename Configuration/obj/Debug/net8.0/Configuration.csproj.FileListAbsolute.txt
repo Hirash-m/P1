@@ -1,5 +1,0 @@
-/home/mo/Hirash/dotnet/Configuration/obj/Debug/net8.0/Configuration.csproj.AssemblyReference.cache
-/home/mo/Hirash/dotnet/Configuration/obj/Debug/net8.0/Configuration.GeneratedMSBuildEditorConfig.editorconfig
-/home/mo/Hirash/dotnet/Configuration/obj/Debug/net8.0/Configuration.AssemblyInfoInputs.cache
-/home/mo/Hirash/dotnet/Configuration/obj/Debug/net8.0/Configuration.AssemblyInfo.cs
-/home/mo/Hirash/dotnet/Configuration/obj/Debug/net8.0/Configuration.csproj.CoreCompileInputs.cache

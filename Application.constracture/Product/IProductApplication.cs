@@ -8,5 +8,6 @@ namespace Application.constracture.Product
     public interface IProductApplication
     {
         List<ProductView> GetProducts();
+        public void CreateProduct(ProductView productView);
     }
 }

@@ -19,5 +19,18 @@ namespace Infrastructure.EF
         {
             return _ctx.products.ToList();
         }
+        public void CreateProduct(Product product){
+            _ctx.products.Add(product);
+
+
+            SaveChanges();
+        }
+
+    public void SaveChanges()
+{
+    _ctx.SaveChanges(); 
+
+    }
+
     }
 }

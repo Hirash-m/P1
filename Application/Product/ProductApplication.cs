@@ -26,5 +26,19 @@ namespace Application.Product
             Description = p.Description,
         }).ToList();
         }
+
+          public void CreateProduct(ProductView productView){
+
+                    var product = new Domain.Product{Name=productView.Name
+                    ,Description=productView.Description};
+
+                _productRepository.CreateProduct(product);
+        }
+
+
+    }
+}
+
+
     }
 }
